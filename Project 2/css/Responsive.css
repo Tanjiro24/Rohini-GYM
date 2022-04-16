@@ -1,0 +1,84 @@
+@media screen and (max-width:800px) {
+    body {
+        background-image: url(img/gym.jpg);
+        background-size: 100vw 58em;
+    }
+
+    .left {
+        top: 20px;
+        left: 20px;
+    }
+
+    .left img {
+        width: 41px;
+        height: 35px;
+    }
+
+    .left div {
+        font-size: 13px;
+    }
+
+    .mid {
+        width: 98%;
+        height: 30px;
+        margin: 110px auto;
+        text-align: center;
+
+    }
+
+    .navbar li {
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+
+    .navbar li a {
+        color: #ffffff4a;
+        text-decoration: underline;
+        padding: 0px 24px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+    }
+
+
+    .right {
+        top: 34px;
+        right: 2px;
+
+    }
+
+    .btn {
+        margin: 0 1px;
+        font-size: 9px;
+    }
+
+    .container {
+        margin: 0px 9px;
+        padding: 10px;
+        width: 91%;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container button {
+        font-size: 15px;
+        width: 65%;
+        height: 45px;
+    }
+
+    .container button:hover {
+        background-color: rgb(91, 124, 40);
+    }
+
+
+    .form-group input {
+        width: 58vw;
+        margin: 11px auto;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+}
